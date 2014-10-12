@@ -6,8 +6,8 @@ public class Worker {
 	private static ArrayList<String> takenIds = new ArrayList<String>();
 	private String name;
 	private String id;
-	protected double fruitsPower;
-	protected double vegetablesPower;
+	private double fruitsPower;
+	private double vegetablesPower;
 
 	public Worker(String name, String id, double fruitsPower,
 			double vegetablesPower) {
@@ -25,15 +25,30 @@ public class Worker {
 		}
 		this.id = id;
 		takenIds.add(id);
-		this.fruitsPower = fruitsPower;
-		this.vegetablesPower = vegetablesPower;
+		this.setFruitsPower(fruitsPower);
+		this.setVegetablesPower(vegetablesPower);
 	}
 
-	private void setFruitsPower(double fruitPower) {
+	protected double getFruitsPower() {
+		return this.fruitsPower;
+	}
+
+	protected void setFruitsPower(double fruitPower) {
 		if (fruitPower < 0) {
 			throw new IllegalArgumentException(
 					"Fruit power cannot be a negative number");
 		}
+
+		this.fruitsPower = fruitPower;
+	}
+
+	protected void setVegetablesPower(double vegetablesPower) {
+		if (vegetablesPower < 0) {
+			throw new IllegalArgumentException(
+					"Fruit power cannot be a negative number");
+		}
+
+		this.vegetablesPower = vegetablesPower;
 	}
 
 	public double doWork(Area area) throws AreaException {

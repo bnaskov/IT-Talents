@@ -17,4 +17,7 @@ public class AreaException extends Exception {
 		super(cause);
 	}
 
+	// @Override
+	// public String getMessage() {
+	// }
 }

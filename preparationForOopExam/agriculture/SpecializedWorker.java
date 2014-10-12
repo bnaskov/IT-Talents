@@ -8,11 +8,11 @@ public class SpecializedWorker extends Worker {
 		super(name, id, fruitsPower, vegetablesPower);
 		this.specializedType = specializedType;
 		if (this.specializedType.toString().equals("FRUITS")) {
-			this.fruitsPower = this.fruitsPower * 1.2;
-			this.vegetablesPower = this.vegetablesPower * 0.85;
+			this.setFruitsPower(fruitsPower * 1.2);
+			this.setVegetablesPower(vegetablesPower * 0.85);
 		} else {
-			this.vegetablesPower = this.vegetablesPower * 1.2;
-			this.fruitsPower = this.fruitsPower * 0.85;
+			this.setVegetablesPower(vegetablesPower * 1.2);
+			this.setFruitsPower(fruitsPower * 0.85);
 		}
 	}
 
@@ -21,8 +21,8 @@ public class SpecializedWorker extends Worker {
 			throws AreaException {
 		if (hasStickWithNet
 				&& area.getAgriculturalType().toString().equals("FRUITS")) {
-			validateWorkDone(area, fruitsPower * 1.9);
-			return fruitsPower * 1.9;
+			validateWorkDone(area, getFruitsPower() * 1.9);
+			return getFruitsPower() * 1.9;
 		} else {
 			return this.doWork(area);
 		}

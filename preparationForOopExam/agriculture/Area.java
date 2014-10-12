@@ -18,7 +18,9 @@ public class Area {
 
 	private void setAreaSize(double areaSize) throws AreaException {
 		if (areaSize <= 0) {
-			throw new AreaException("Area size must be a positive number.");
+			throw new AreaException("exception occurred in class '"
+					+ this.getClass().getSimpleName()
+					+ "': area size must be a positive number.");
 		}
 
 		this.areaSize = areaSize;
@@ -39,7 +41,9 @@ public class Area {
 	void setAmount(double amount) throws AreaException {
 		if (amount < 0 || amount > this.areaSize * 100) {
 			throw new AreaException(
-					"Area size must be bigger than 0 and less or equal to area size * 100.");
+					"exception occurred in class '"
+							+ this.getClass().getSimpleName()
+							+ "': area size must be bigger than 0 and less or equal to area size * 100.");
 		}
 
 		this.amount = amount;

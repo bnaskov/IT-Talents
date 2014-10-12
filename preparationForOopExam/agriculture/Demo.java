@@ -17,7 +17,6 @@ public class Demo {
 			System.out.println(areaA.getAmount());
 		} catch (AreaException e) {
 			System.out.println(e.getMessage());
-			e.printStackTrace();
 		} catch (IllegalArgumentException e) {
 			System.out.println(e.getMessage());
 		}
