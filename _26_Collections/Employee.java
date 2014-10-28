@@ -1,17 +1,14 @@
 package _26_Collections;
 
-import java.util.HashMap;
+import java.util.TreeMap;
 
 public class Employee implements Comparable<Employee> {
-	private enum Months {
-		JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-	};
 
 	private String name;
 	private int age;
 	private double salary;
 	private String id;
-	private HashMap<Months, Double> salariesByMonth;
+	private TreeMap<Month, Double> salaryPerMonth;
 
 	public Employee(String name, int age, double salary, String id) {
 		super();
@@ -19,6 +16,7 @@ public class Employee implements Comparable<Employee> {
 		this.setAge(age);
 		this.setSalary(salary);
 		this.setId(id);
+		this.salaryPerMonth = new TreeMap<Month, Double>();
 	}
 
 	public String getName() {
@@ -70,6 +68,26 @@ public class Employee implements Comparable<Employee> {
 		}
 
 		this.id = id;
+	}
+
+	public void addMonthSalary(Month month, double monthSalary) {
+		if (month == null) {
+			throw new IllegalArgumentException("Month cannot be null.");
+		}
+		if (monthSalary < 0) {
+			throw new IllegalArgumentException(
+					"Month salary must be a positive number.");
+		}
+
+		this.salaryPerMonth.put(month, monthSalary);
+	}
+
+	public void printSalariesPerMonth() {
+		System.out.println("Employee name: " + this.getName());
+		System.out.println("Salary per month: ");
+		for (Month month : this.salaryPerMonth.keySet()) {
+			System.out.println(month + " : " + this.salaryPerMonth.get(month));
+		}
 	}
 
 	@Override
