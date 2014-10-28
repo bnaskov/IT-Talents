@@ -2,7 +2,7 @@ package _26_Collections;
 
 import java.util.TreeMap;
 
-public class Employee implements Comparable<Employee> {
+public abstract class Employee implements Comparable<Employee> {
 
 	private String name;
 	private int age;
@@ -49,11 +49,7 @@ public class Employee implements Comparable<Employee> {
 	}
 
 	public void setSalary(double salary) {
-		if (salary < 0) {
-			throw new IllegalArgumentException(
-					"Employee salary must be a positive number.");
-		}
-
+		Validation.ValidateSalary(salary);
 		this.salary = salary;
 	}
 
@@ -70,29 +66,34 @@ public class Employee implements Comparable<Employee> {
 		this.id = id;
 	}
 
+	public TreeMap<Month, Double> getSalaryPerMonth() {
+		return new TreeMap<>(this.salaryPerMonth);
+	}
+
 	public void addMonthSalary(Month month, double monthSalary) {
-		if (month == null) {
-			throw new IllegalArgumentException("Month cannot be null.");
-		}
-		if (monthSalary < 0) {
-			throw new IllegalArgumentException(
-					"Month salary must be a positive number.");
-		}
+		Validation.ValidateMonth(month);
+		Validation.ValidateSalary(monthSalary);
 
 		this.salaryPerMonth.put(month, monthSalary);
 	}
 
 	public void printSalariesPerMonth() {
-		System.out.println("Employee name: " + this.getName());
-		System.out.println("Salary per month: ");
-		for (Month month : this.salaryPerMonth.keySet()) {
-			System.out.println(month + " : " + this.salaryPerMonth.get(month));
+		if (!this.getSalaryPerMonth().isEmpty()) {
+			System.out.println("Employee name: " + this.getName());
+			System.out.println("Salary per month: ");
+			for (Month month : this.salaryPerMonth.keySet()) {
+				System.out.println(month + " : "
+						+ this.salaryPerMonth.get(month));
+			}
+			System.out.println("----------");
 		}
 	}
 
 	@Override
 	public String toString() {
-		return this.getName();
+		String employeeInfo = String.format("name: %s, age: %d, type: %s",
+				this.getName(), this.getAge(), this.getClass().getSimpleName());
+		return employeeInfo;
 	}
 
 	@Override

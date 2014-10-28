@@ -11,7 +11,7 @@ public class Company {
 	private HashMap<Department, ArrayList<Employee>> workers;
 
 	enum Department {
-		IT, SALES, MARKETING
+		IT, SALES, MARKETING, HR
 	};
 
 	public Company(String name) {
@@ -32,12 +32,39 @@ public class Company {
 		this.name = name;
 	}
 
-	void addEmployee(Department depName, Employee employee) {
-		if (workers.get(depName) == null) {
-			workers.put(depName, new ArrayList<Employee>());
+	void addEmployee(Department departament, Employee employee) {
+		Validation.ValidateDepartament(departament);
+		Validation.ValidateEmployee(employee);
+
+		if (workers.get(departament) == null) {
+			workers.put(departament, new ArrayList<Employee>());
 		}
 
-		workers.get(depName).add(employee);
+		if (employee instanceof RegularEmployee) {
+			boolean employeeExist = false;
+			for (Department dep : workers.keySet()) {
+				if (workers.get(dep).contains(employee)) {
+					employeeExist = true;
+					break;
+				}
+			}
+			if (employeeExist) {
+				throw new IllegalArgumentException(
+						"There is already an employee in the company with this name and age.");
+			} else {
+				workers.get(departament).add(employee);
+			}
+		} else if (employee instanceof Manager) {
+			if (!workers.get(departament).contains(employee)) {
+				workers.get(departament).add(employee);
+			} else {
+				throw new IllegalArgumentException(
+						"There is already a manager in the departament with this name and age.");
+			}
+		} else {
+			throw new IllegalArgumentException(
+					"There is no such type of employee in the company.");
+		}
 	}
 
 	void printEmployees() {
@@ -106,5 +133,42 @@ public class Company {
 		}
 
 		return allEmployees;
+	}
+
+	// maybe it's not a good option, coupling occurs
+	public void addMonthSalary(Employee employee, Month month,
+			double monthSalary) {
+		Validation.ValidateEmployee(employee);
+		Validation.ValidateMonth(month);
+		Validation.ValidateSalary(monthSalary);
+
+		boolean employeeExist = false;
+		for (Department dep : workers.keySet()) {
+			if (workers.get(dep).contains(employee)) {
+				employeeExist = true;
+				break;
+			}
+		}
+
+		if (employeeExist) {
+			employee.addMonthSalary(month, monthSalary);
+		} else {
+			throw new IllegalArgumentException(
+					"There is no such employee in the company.");
+		}
+	}
+
+	public void printSalariesPerMonthForAllEmployees() {
+		for (Employee employee : this.uniqueEmployees()) {
+			if (!employee.getSalaryPerMonth().isEmpty()) {
+				System.out.println("Employee name: " + employee.getName());
+				System.out.println("Salary per month: ");
+				for (Month month : employee.getSalaryPerMonth().keySet()) {
+					System.out.println(month + " : "
+							+ employee.getSalaryPerMonth().get(month));
+				}
+				System.out.println("----------");
+			}
+		}
 	}
 }
