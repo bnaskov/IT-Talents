@@ -7,7 +7,6 @@ public class Demo {
 
 	public static void main(String[] args) {
 		Company apple = new Company("Apple");
-		// add employees to it by department
 
 		Employee arya = new RegularEmployee("Arya", 36, 2200, "1542");
 		Employee aryaClone = new RegularEmployee("Arya", 36, 2200, "1542");
@@ -31,41 +30,44 @@ public class Demo {
 		apple.addEmployee(Company.Department.MARKETING, new RegularEmployee(
 				"Bobi", 25, 1400, "1910"));
 		apple.addEmployee(Company.Department.MARKETING, jon);
-		// print employees
-		// System.out.println("Prints employees:");
-		// apple.printEmployees();
-		// System.out.println();
-		// System.out.println("Prints employees by age: ");
-		// apple.printEmployeesByAge();
-		// System.out.println();
-		// System.out.println("Prints employees by name: ");
-		// apple.printEmployeesByName();
-		// System.out.println();
-		// System.out.println("Employees sorted by name:");
-		// for (Employee employee : apple.sortedEmployeesByName()) {
-		// System.out.println(employee);
-		// }
-		// System.out.println();
 
-		// System.out.println("Unique employees:");
+		System.out.println("Employees:");
+		apple.printEmployees();
+		System.out.println();
+
+		System.out.println("Employees by age: ");
+		apple.printEmployeesByAge();
+		System.out.println();
+
+		System.out.println("Employees by name: ");
+		apple.printEmployeesByName();
+		System.out.println();
+
+		System.out.println("Employees sorted by name:");
+		for (Employee employee : apple.sortedEmployeesByName()) {
+			System.out.println(employee);
+		}
+		System.out.println();
+
+		System.out.println("Unique employees:");
 		for (Employee employee : apple.uniqueEmployees()) {
-			// System.out.println(employee);
+			System.out.println(employee);
 		}
 		System.out.println();
 
 		// Here we use TreeMap in order months to be sorted
-		// System.out.println("Salaries per month:");
+		System.out.println("Salaries per month:");
 		arya.addMonthSalary(Month.AUGUST, 950);
 		arya.addMonthSalary(Month.AUGUST, 1360);
 		arya.addMonthSalary(Month.APRIL, 1600);
 		arya.addMonthSalary(Month.JUNE, 1250);
-		// arya.printSalariesPerMonth();
+		arya.printSalariesPerMonth();
 
 		apple.addMonthSalary(aryaDiff, Month.FEBRUARY, 4000);
 		// aryaDiff.printSalariesPerMonth();
 		apple.addMonthSalary(jon, Month.MARCH, 2100);
 		// jon.printSalariesPerMonth();
-		// apple.printSalariesPerMonthForAllEmployees();
+		apple.printSalariesPerMonthForAllEmployees();
 
 		Employee cersei = new Manager("Cersei", 31, 6000, "0008", Title.CMO);
 		apple.addEmployee(Department.SALES, cersei);

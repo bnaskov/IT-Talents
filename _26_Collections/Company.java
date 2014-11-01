@@ -32,7 +32,7 @@ public class Company {
 		this.name = name;
 	}
 
-	void addEmployee(Department departament, Employee employee) {
+	public void addEmployee(Department departament, Employee employee) {
 		Validation.ValidateDepartament(departament);
 		Validation.ValidateEmployee(employee);
 
@@ -67,7 +67,7 @@ public class Company {
 		}
 	}
 
-	void printEmployees() {
+	public void printEmployees() {
 		for (Department dep : workers.keySet()) {
 			System.out.println(dep + ":");
 			for (Employee employee : workers.get(dep)) {
@@ -76,7 +76,7 @@ public class Company {
 		}
 	}
 
-	void printEmployeesByAge() {
+	public void printEmployeesByAge() {
 		for (Department d : workers.keySet()) {
 			Collections.sort(workers.get(d), new Comparator<Employee>() {
 
@@ -107,7 +107,7 @@ public class Company {
 		printEmployees();
 	}
 
-	void printEmployeesByName() {
+	public void printEmployeesByName() {
 		for (Department d : workers.keySet()) {
 			Collections.sort(workers.get(d));
 		}
@@ -115,7 +115,7 @@ public class Company {
 		printEmployees();
 	}
 
-	ArrayList<Employee> sortedEmployeesByName() {
+	public ArrayList<Employee> sortedEmployeesByName() {
 		ArrayList<Employee> allEmployees = new ArrayList<Employee>();
 		for (Department dep : workers.keySet()) {
 			allEmployees.addAll(workers.get(dep));
@@ -126,7 +126,7 @@ public class Company {
 		return allEmployees;
 	}
 
-	HashSet<Employee> uniqueEmployees() {
+	public HashSet<Employee> uniqueEmployees() {
 		HashSet<Employee> allEmployees = new HashSet<Employee>();
 		for (Department dep : workers.keySet()) {
 			allEmployees.addAll(workers.get(dep));
@@ -135,7 +135,6 @@ public class Company {
 		return allEmployees;
 	}
 
-	// maybe it's not a good option, coupling occurs
 	public void addMonthSalary(Employee employee, Month month,
 			double monthSalary) {
 		Validation.ValidateEmployee(employee);

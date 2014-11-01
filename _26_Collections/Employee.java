@@ -19,7 +19,7 @@ public abstract class Employee implements Comparable<Employee> {
 		this.salaryPerMonth = new TreeMap<Month, Double>();
 	}
 
-	public String getName() {
+	protected String getName() {
 		return this.name;
 	}
 
@@ -32,7 +32,7 @@ public abstract class Employee implements Comparable<Employee> {
 		this.name = name;
 	}
 
-	public int getAge() {
+	protected int getAge() {
 		return this.age;
 	}
 
@@ -48,7 +48,7 @@ public abstract class Employee implements Comparable<Employee> {
 		return this.salary;
 	}
 
-	public void setSalary(double salary) {
+	private void setSalary(double salary) {
 		Validation.ValidateSalary(salary);
 		this.salary = salary;
 	}
@@ -57,7 +57,7 @@ public abstract class Employee implements Comparable<Employee> {
 		return this.id;
 	}
 
-	public void setId(String id) {
+	private void setId(String id) {
 		if (id.length() < 2) {
 			throw new IllegalArgumentException(
 					"Employee id must be at least 2 symbols.");
@@ -70,7 +70,7 @@ public abstract class Employee implements Comparable<Employee> {
 		return new TreeMap<>(this.salaryPerMonth);
 	}
 
-	public void addMonthSalary(Month month, double monthSalary) {
+	protected void addMonthSalary(Month month, double monthSalary) {
 		Validation.ValidateMonth(month);
 		Validation.ValidateSalary(monthSalary);
 
