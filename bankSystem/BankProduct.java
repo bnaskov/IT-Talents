@@ -36,7 +36,7 @@ public abstract class BankProduct {
 		return this.productPeriod;
 	}
 
-	private void setPeriod(int productPeriod) {
+	protected void setPeriod(int productPeriod) {
 		Validation.productPeriod(productPeriod);
 		this.productPeriod = productPeriod;
 	}

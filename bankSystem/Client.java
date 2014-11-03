@@ -7,8 +7,8 @@ public class Client {
 	private String address;
 	private double availableMoney;
 	private double monthSalary;
-	ArrayList<Deposit> deposits;
-	ArrayList<Credit> credits;
+	protected ArrayList<Deposit> deposits;
+	protected ArrayList<Credit> credits;
 
 	public Client(String name, String address, double availableMoney,
 			double monthSalary) {
@@ -28,8 +28,12 @@ public class Client {
 	public void openDeposit(Bank bank, Deposit deposit, double depositAmount) {
 		// TOTO validation
 
-		bank.addBankProduct(deposit, depositAmount, this);
-		this.deposits.add(deposit);
+		bank.addBankProduct(deposit, depositAmount, this, 0);
+	}
+
+	public void takeCredit(Bank bank, Credit credit, int period,
+			double creditAmount) {
+		bank.addBankProduct(credit, creditAmount, this, period);
 	}
 
 	public double getAvailableMoney() {
@@ -47,18 +51,18 @@ public class Client {
 				"Client name: %s, available money: %.2f, month salary: %.2f%n",
 				this.name, this.availableMoney, this.monthSalary));
 		if (!this.deposits.isEmpty()) {
-			output.append("Deposits: ");
+			output.append("Deposits: \n");
 			for (Deposit deposit : this.deposits) {
 				output.append(deposit);
+				output.append("\n");
 			}
-			output.append("\n");
 		}
 		if (!this.credits.isEmpty()) {
-			output.append("Credits: ");
+			output.append("Credits: \n");
 			for (Credit credit : this.credits) {
 				output.append(credit);
+				output.append("\n");
 			}
-			output.append("\n");
 		}
 
 		return output.toString();
