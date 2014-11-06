@@ -3,8 +3,8 @@ package _28_Files;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -23,12 +23,11 @@ public class WarAndPeaceWordCount {
 	private static final int NUMBER_OF_TOP_RESULTS = 10;
 
 	public static void main(String[] args) {
+		File warAndPeace = new File(FILE_DIR + FILE_NAME);
+
+		Map<String, Integer> map;
 		try {
-			File warAndPeace = new File(FILE_DIR + FILE_NAME);
-
-			Map<String, Integer> map = new HashMap<String, Integer>(
-					wordsMap(warAndPeace));
-
+			map = new HashMap<String, Integer>(wordsMap(warAndPeace));
 			// System.out.println("Word : occurrences");
 			// for (HashMap.Entry<String, Integer> entry : map.entrySet()) {
 			// System.out.println(entry.getKey() + " : " + entry.getValue());
@@ -57,40 +56,42 @@ public class WarAndPeaceWordCount {
 
 			// Creates a file with all unique words and the number of their
 			// occurrences in the text
-			// createFileWithAllOccurrencesOfWords(sortedMap);
-
-		} catch (FileNotFoundException fnfe) {
-			System.out.println(fnfe.getMessage());
-		} catch (IOException ioe) {
-			System.out.println(ioe.getMessage());
+			createFileWithAllOccurrencesOfWords(sortedMap);
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
 		}
+
 	}
 
 	private static Map<String, Integer> wordsMap(File file)
 			throws FileNotFoundException {
-		Scanner cs = new Scanner(new FileInputStream(file));
 		Map<String, Integer> map = new HashMap();
-		String patternString = "[A-Za-z]+";
-		Pattern pattern = Pattern.compile(patternString);
+		try (Scanner cs = new Scanner(new FileInputStream(file))) {
+			String patternString = "[A-Za-z]+";
+			Pattern pattern = Pattern.compile(patternString);
 
-		Matcher matcher = pattern.matcher("");
-		String word = "";
-		String textLine = "";
-		while (cs.hasNextLine()) {
-			textLine = cs.nextLine();
-			matcher = pattern.matcher(textLine);
-			while (matcher.find()) {
-				word = matcher.group().toLowerCase();
-				if (map.containsKey(word)) {
-					int numOfOccurrences = map.get(word) + 1;
-					map.put(word, numOfOccurrences);
-				} else {
-					map.put(word, 1);
+			Matcher matcher = pattern.matcher("");
+			String word = "";
+			String textLine = "";
+			while (cs.hasNextLine()) {
+				textLine = cs.nextLine();
+				matcher = pattern.matcher(textLine);
+				while (matcher.find()) {
+					word = matcher.group().toLowerCase();
+					if (map.containsKey(word)) {
+						int numOfOccurrences = map.get(word) + 1;
+						map.put(word, numOfOccurrences);
+					} else {
+						map.put(word, 1);
+					}
 				}
 			}
+		} catch (FileNotFoundException e) {
+			throw e;
 		}
 
-		cs.close();
 		return map;
 	}
 
@@ -117,13 +118,19 @@ public class WarAndPeaceWordCount {
 	}
 
 	private static void createFileWithAllOccurrencesOfWords(
-			Map<String, Integer> map) throws IOException {
-		PrintWriter writer = new PrintWriter(FILE_DIR
-				+ "war_peace_word_count.txt", "UTF-8");
-		for (Map.Entry<String, Integer> entry : map.entrySet()) {
-			writer.println(entry.getKey() + " : " + entry.getValue());
-		}
+			Map<String, Integer> map) throws FileNotFoundException,
+			UnsupportedEncodingException {
 
-		writer.close();
+		try (PrintWriter writer = new PrintWriter(FILE_DIR
+				+ "war_peace_word_count.txt", "UTF-8")) {
+
+			for (Map.Entry<String, Integer> entry : map.entrySet()) {
+				writer.println(entry.getKey() + " : " + entry.getValue());
+			}
+		} catch (FileNotFoundException e) {
+			throw e;
+		} catch (UnsupportedEncodingException e) {
+			throw e;
+		}
 	}
 }

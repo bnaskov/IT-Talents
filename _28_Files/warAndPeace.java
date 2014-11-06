@@ -9,29 +9,32 @@ public class WarAndPeace {
 	private static final String FILE_DIR = "src\\_28_Files\\";
 	private static final String FILE_NAME = "war_peace.txt";
 
-	public static void main(String[] args) throws FileNotFoundException {
+	public static void main(String[] args) {
+		File warAndPeace = new File(FILE_DIR + FILE_NAME);
 		try {
-			File warAndPeace = new File(FILE_DIR + FILE_NAME);
-			System.out.println(countComas(warAndPeace));
-		} catch (FileNotFoundException fnfe) {
-			System.out.println(fnfe.getMessage());
+			System.out.println("Number of comas in \"War and Peace\": "
+					+ countComas(warAndPeace));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
 		}
 	}
 
 	private static int countComas(File file) throws FileNotFoundException {
-		Scanner cs = new Scanner(new FileInputStream(file));
-		String line = "";
 		int counter = 0;
-		while (cs.hasNextLine()) {
-			line = cs.nextLine();
-			for (int i = 0; i < line.length(); i++) {
-				if (line.charAt(i) == ',') {
-					counter++;
+		try (Scanner cs = new Scanner(new FileInputStream(file))) {
+			String line = "";
+			while (cs.hasNextLine()) {
+				line = cs.nextLine();
+				for (int i = 0; i < line.length(); i++) {
+					if (line.charAt(i) == ',') {
+						counter++;
+					}
 				}
 			}
+		} catch (FileNotFoundException e) {
+			throw e;
 		}
 
-		cs.close();
 		return counter;
 	}
 }
