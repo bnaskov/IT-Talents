@@ -1,4 +1,4 @@
-package lesson1to3_Multithreading;
+package lesson01to03_Multithreading;
 
 // Synchronizing
 
