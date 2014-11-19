@@ -1,0 +1,305 @@
+<districtCourt.DistrictCourt>
+  <name>Tyrnovo</name>
+  <address>blv. Freedom</address>
+  <legalPersons>
+    <districtCourt.Judge>
+      <name>Ivan Ivanov</name>
+      <yearsInBusiness>6</yearsInBusiness>
+      <numberOfCases>14</numberOfCases>
+    </districtCourt.Judge>
+    <districtCourt.Judge>
+      <name>Ivan Georgiev</name>
+      <yearsInBusiness>8</yearsInBusiness>
+      <numberOfCases>11</numberOfCases>
+    </districtCourt.Judge>
+    <districtCourt.Judge>
+      <name>Ivan Simeonov</name>
+      <yearsInBusiness>9</yearsInBusiness>
+      <numberOfCases>19</numberOfCases>
+    </districtCourt.Judge>
+    <districtCourt.JudicialAssessor>
+      <name>Peter Draganov</name>
+      <yearsInBusiness>12</yearsInBusiness>
+      <numberOfCases>11</numberOfCases>
+    </districtCourt.JudicialAssessor>
+    <districtCourt.JudicialAssessor>
+      <name>Peter Ivanov</name>
+      <yearsInBusiness>22</yearsInBusiness>
+      <numberOfCases>18</numberOfCases>
+    </districtCourt.JudicialAssessor>
+    <districtCourt.JudicialAssessor>
+      <name>Peter Tichev</name>
+      <yearsInBusiness>10</yearsInBusiness>
+      <numberOfCases>16</numberOfCases>
+    </districtCourt.JudicialAssessor>
+    <districtCourt.JudicialAssessor>
+      <name>Peter Tikov</name>
+      <yearsInBusiness>15</yearsInBusiness>
+      <numberOfCases>23</numberOfCases>
+    </districtCourt.JudicialAssessor>
+    <districtCourt.JudicialAssessor>
+      <name>Peter Peshev</name>
+      <yearsInBusiness>9</yearsInBusiness>
+      <numberOfCases>19</numberOfCases>
+    </districtCourt.JudicialAssessor>
+    <districtCourt.JudicialAssessor>
+      <name>Peter Zanev</name>
+      <yearsInBusiness>12</yearsInBusiness>
+      <numberOfCases>26</numberOfCases>
+    </districtCourt.JudicialAssessor>
+    <districtCourt.JudicialAssessor>
+      <name>Peter Dimitriev</name>
+      <yearsInBusiness>15</yearsInBusiness>
+      <numberOfCases>28</numberOfCases>
+    </districtCourt.JudicialAssessor>
+    <districtCourt.JudicialAssessor>
+      <name>Peter Petkov</name>
+      <yearsInBusiness>11</yearsInBusiness>
+      <numberOfCases>26</numberOfCases>
+    </districtCourt.JudicialAssessor>
+    <districtCourt.JudicialAssessor>
+      <name>Peter Mikov</name>
+      <yearsInBusiness>18</yearsInBusiness>
+      <numberOfCases>35</numberOfCases>
+    </districtCourt.JudicialAssessor>
+    <districtCourt.JudicialAssessor>
+      <name>Peter Dinev</name>
+      <yearsInBusiness>20</yearsInBusiness>
+      <numberOfCases>43</numberOfCases>
+    </districtCourt.JudicialAssessor>
+    <districtCourt.Lawyer>
+      <name>George Vankov</name>
+      <yearsInBusiness>13</yearsInBusiness>
+      <numberOfCases>23</numberOfCases>
+    </districtCourt.Lawyer>
+    <districtCourt.Lawyer>
+      <name>George Nasov</name>
+      <yearsInBusiness>13</yearsInBusiness>
+      <numberOfCases>23</numberOfCases>
+    </districtCourt.Lawyer>
+    <districtCourt.Lawyer>
+      <name>George Penev</name>
+      <yearsInBusiness>13</yearsInBusiness>
+      <numberOfCases>23</numberOfCases>
+    </districtCourt.Lawyer>
+    <districtCourt.Lawyer>
+      <name>George Draganov</name>
+      <yearsInBusiness>13</yearsInBusiness>
+      <numberOfCases>23</numberOfCases>
+    </districtCourt.Lawyer>
+    <districtCourt.Lawyer>
+      <name>George Tashev</name>
+      <yearsInBusiness>13</yearsInBusiness>
+      <numberOfCases>23</numberOfCases>
+    </districtCourt.Lawyer>
+    <districtCourt.Prosecutor>
+      <name>Mario Penev</name>
+      <yearsInBusiness>20</yearsInBusiness>
+      <numberOfCases>44</numberOfCases>
+    </districtCourt.Prosecutor>
+    <districtCourt.Prosecutor>
+      <name>Mario Tanev</name>
+      <yearsInBusiness>22</yearsInBusiness>
+      <numberOfCases>47</numberOfCases>
+    </districtCourt.Prosecutor>
+  </legalPersons>
+  <cases>
+    <districtCourt.CivilCase>
+      <judge reference="../../../legalPersons/districtCourt.Judge"/>
+      <judicialAssessors>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[2]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[3]"/>
+      </judicialAssessors>
+      <defendant>
+        <fullName>Maria Todorova</fullName>
+        <address>Varna</address>
+        <age>42</age>
+        <lawyers>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer[5]"/>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer[5]"/>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer"/>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer[2]"/>
+        </lawyers>
+      </defendant>
+      <witnesses>
+        <districtCourt.Witness>
+          <fullName>Milena Tankina</fullName>
+          <address>Ruse</address>
+          <age>25</age>
+        </districtCourt.Witness>
+        <districtCourt.Witness>
+          <fullName>Milena Georgieva</fullName>
+          <address>Ruse</address>
+          <age>25</age>
+        </districtCourt.Witness>
+        <districtCourt.Witness reference="../districtCourt.Witness[2]"/>
+      </witnesses>
+      <accuser>
+        <fullName>Dimo Nasov</fullName>
+        <address>Sofia</address>
+        <age>42</age>
+        <lawyers>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer[2]"/>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer"/>
+        </lawyers>
+      </accuser>
+    </districtCourt.CivilCase>
+    <districtCourt.CivilCase>
+      <judge reference="../../../legalPersons/districtCourt.Judge[3]"/>
+      <judicialAssessors>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[2]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[3]"/>
+      </judicialAssessors>
+      <defendant>
+        <fullName>Maria Kicheva</fullName>
+        <address>Sofia</address>
+        <age>42</age>
+        <lawyers>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer[3]"/>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer[4]"/>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer[3]"/>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer[5]"/>
+        </lawyers>
+      </defendant>
+      <witnesses>
+        <districtCourt.Witness>
+          <fullName>Milena Minkova</fullName>
+          <address>Plovdiv</address>
+          <age>25</age>
+        </districtCourt.Witness>
+        <districtCourt.Witness reference="../districtCourt.Witness"/>
+        <districtCourt.Witness>
+          <fullName>Milena Peneva</fullName>
+          <address>Sliven</address>
+          <age>25</age>
+        </districtCourt.Witness>
+      </witnesses>
+      <accuser>
+        <fullName>Dimo Tonev</fullName>
+        <address>Plovdiv</address>
+        <age>34</age>
+        <lawyers>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer[4]"/>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer[3]"/>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer[3]"/>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer[5]"/>
+        </lawyers>
+      </accuser>
+    </districtCourt.CivilCase>
+    <districtCourt.CivilCase>
+      <judge reference="../../../legalPersons/districtCourt.Judge[2]"/>
+      <judicialAssessors>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[2]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[3]"/>
+      </judicialAssessors>
+      <defendant>
+        <fullName>Maria Taneva</fullName>
+        <address>Sliven</address>
+        <age>32</age>
+        <lawyers>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer[3]"/>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer[4]"/>
+        </lawyers>
+      </defendant>
+      <witnesses>
+        <districtCourt.Witness reference="../../../districtCourt.CivilCase/witnesses/districtCourt.Witness"/>
+        <districtCourt.Witness reference="../../../districtCourt.CivilCase[2]/witnesses/districtCourt.Witness[3]"/>
+        <districtCourt.Witness>
+          <fullName>Milena Jeleva</fullName>
+          <address>Sliven</address>
+          <age>25</age>
+        </districtCourt.Witness>
+      </witnesses>
+      <accuser reference="../../districtCourt.CivilCase[2]/accuser"/>
+    </districtCourt.CivilCase>
+    <districtCourt.CriminalCase>
+      <judge reference="../../../legalPersons/districtCourt.Judge[3]"/>
+      <judicialAssessors>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[2]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[3]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[4]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[5]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[6]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[7]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[8]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[9]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[10]"/>
+      </judicialAssessors>
+      <defendant reference="../../districtCourt.CivilCase[2]/defendant"/>
+      <witnesses>
+        <districtCourt.Witness>
+          <fullName>Milena Dineva</fullName>
+          <address>Plovdiv</address>
+          <age>25</age>
+        </districtCourt.Witness>
+        <districtCourt.Witness>
+          <fullName>Milena Simeonova</fullName>
+          <address>Sofia</address>
+          <age>25</age>
+        </districtCourt.Witness>
+        <districtCourt.Witness reference="../../../districtCourt.CivilCase/witnesses/districtCourt.Witness[2]"/>
+      </witnesses>
+      <prosecutor reference="../../../legalPersons/districtCourt.Prosecutor"/>
+    </districtCourt.CriminalCase>
+    <districtCourt.CriminalCase>
+      <judge reference="../../../legalPersons/districtCourt.Judge[3]"/>
+      <judicialAssessors>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[2]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[3]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[4]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[5]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[6]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[7]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[8]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[9]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[10]"/>
+      </judicialAssessors>
+      <defendant>
+        <fullName>Maria Pesheva</fullName>
+        <address>Sliven</address>
+        <age>22</age>
+        <lawyers>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer[2]"/>
+          <districtCourt.Lawyer reference="../../../../../legalPersons/districtCourt.Lawyer[4]"/>
+        </lawyers>
+      </defendant>
+      <witnesses>
+        <districtCourt.Witness reference="../../../districtCourt.CivilCase[3]/witnesses/districtCourt.Witness[3]"/>
+        <districtCourt.Witness reference="../../../districtCourt.CivilCase[3]/witnesses/districtCourt.Witness[3]"/>
+        <districtCourt.Witness reference="../../../districtCourt.CivilCase[2]/witnesses/districtCourt.Witness[3]"/>
+      </witnesses>
+      <prosecutor reference="../../../legalPersons/districtCourt.Prosecutor"/>
+    </districtCourt.CriminalCase>
+    <districtCourt.CriminalCase>
+      <judge reference="../../../legalPersons/districtCourt.Judge"/>
+      <judicialAssessors>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[2]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[3]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[4]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[5]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[6]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[7]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[8]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[9]"/>
+        <districtCourt.JudicialAssessor reference="../../../../legalPersons/districtCourt.JudicialAssessor[10]"/>
+      </judicialAssessors>
+      <defendant reference="../../districtCourt.CivilCase/defendant"/>
+      <witnesses>
+        <districtCourt.Witness reference="../../../districtCourt.CriminalCase/witnesses/districtCourt.Witness[2]"/>
+        <districtCourt.Witness>
+          <fullName>Milena Taneva</fullName>
+          <address>Sofia</address>
+          <age>25</age>
+        </districtCourt.Witness>
+        <districtCourt.Witness reference="../../../districtCourt.CriminalCase/witnesses/districtCourt.Witness"/>
+      </witnesses>
+      <prosecutor reference="../../../legalPersons/districtCourt.Prosecutor[2]"/>
+    </districtCourt.CriminalCase>
+  </cases>
+</districtCourt.DistrictCourt>

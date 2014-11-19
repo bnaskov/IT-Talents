@@ -1,0 +1,950 @@
+CIVIL CASE:
+Judge: name: Ivan Ivanov; years in business: 6; number of cases: 14;  defendant: full name: Maria Todorova; address: Varna; age: 42 witnesses: [full name: Milena Tankina; address: Ruse; age: 25, full name: Milena Georgieva; address: Ruse; age: 25, full name: Milena Georgieva; address: Ruse; age: 25]
+ACCUSER'S LAWYERS ASK DEFENDANT QUESTIONS
+	George Nasov asks:
+Do you recognize this this person?
+	Maria Todorova answers: 
+I refuse to answer the question.
+	George Nasov asks:
+Did you kill him?
+	Maria Todorova answers: 
+I refuse to answer the question.
+	George Nasov asks:
+How much money did you steal?
+	Maria Todorova answers: 
+I refuse to answer the question.
+
+	George Vankov asks:
+Do you recognize this this person?
+	Maria Todorova answers: 
+I'll never tell you.
+	George Vankov asks:
+Did you kill him?
+	Maria Todorova answers: 
+You got the wrong person
+	George Vankov asks:
+Where is the murder weapon?
+	Maria Todorova answers: 
+I don't know.
+
+------------------------
+ACCUSER'S LAWYERS ASK WITNESSES QUESTIONS
+	George Nasov asks:
+Where are they?
+	Milena Tankina answers: 
+You got the wrong person
+	George Nasov asks:
+Where are they?
+	Milena Tankina answers: 
+I don't know.
+	George Nasov asks:
+Did you kill him?
+	Milena Georgieva answers: 
+I don't know.
+	George Nasov asks:
+Do you recognize this this person?
+	Milena Georgieva answers: 
+I refuse to answer the question.
+	George Nasov asks:
+Did you kill him?
+	Milena Georgieva answers: 
+You got the wrong person
+	George Nasov asks:
+Where were you at the night of the crime?
+	Milena Georgieva answers: 
+I refuse to answer the question.
+
+	George Vankov asks:
+Where are they?
+	Milena Tankina answers: 
+I don't know.
+	George Vankov asks:
+Where were you at the night of the crime?
+	Milena Tankina answers: 
+No.
+	George Vankov asks:
+Do you recognize this this person?
+	Milena Georgieva answers: 
+No.
+	George Vankov asks:
+Where is the murder weapon?
+	Milena Georgieva answers: 
+I refuse to answer the question.
+	George Vankov asks:
+Where are they?
+	Milena Georgieva answers: 
+I refuse to answer the question.
+	George Vankov asks:
+Where is the murder weapon?
+	Milena Georgieva answers: 
+I don't remember.
+
+------------------------
+DEFENDANT'S LAWYERS ASK  WITNESSES QUESTIONS
+	George Tashev asks:
+Where are they?
+	Milena Tankina answers:
+No.
+	George Tashev asks:
+Did you kill him?
+	Milena Georgieva answers:
+I don't know.
+	George Tashev asks:
+Do you recognize this this person?
+	Milena Georgieva answers:
+I refuse to answer the question.
+
+	George Tashev asks:
+Where are they?
+	Milena Tankina answers:
+I don't remember.
+	George Tashev asks:
+Did you kill him?
+	Milena Georgieva answers:
+I don't remember.
+	George Tashev asks:
+Do you recognize this this person?
+	Milena Georgieva answers:
+You got the wrong person
+
+	George Vankov asks:
+How much money did you steal?
+	Milena Tankina answers:
+I'll never tell you.
+	George Vankov asks:
+Where were you at the night of the crime?
+	Milena Georgieva answers:
+I don't know.
+	George Vankov asks:
+Where are they?
+	Milena Georgieva answers:
+I don't remember.
+
+	George Nasov asks:
+Where are they?
+	Milena Tankina answers:
+I don't know.
+	George Nasov asks:
+How much money did you steal?
+	Milena Georgieva answers:
+You got the wrong person
+	George Nasov asks:
+Did you kill him?
+	Milena Georgieva answers:
+You got the wrong person
+
+------------------------
+The judicial assessors finds the defendant guilty!
+The defendant is sentenced to 3 years in prison!
+END OF CASE
+
+CIVIL CASE:
+Judge: name: Ivan Simeonov; years in business: 9; number of cases: 19;  defendant: full name: Maria Kicheva; address: Sofia; age: 42 witnesses: [full name: Milena Minkova; address: Plovdiv; age: 25, full name: Milena Minkova; address: Plovdiv; age: 25, full name: Milena Peneva; address: Sliven; age: 25]
+ACCUSER'S LAWYERS ASK DEFENDANT QUESTIONS
+	George Draganov asks:
+Do you recognize this this person?
+	Maria Kicheva answers: 
+I'll never tell you.
+	George Draganov asks:
+Do you recognize this this person?
+	Maria Kicheva answers: 
+I'll never tell you.
+	George Draganov asks:
+Where are they?
+	Maria Kicheva answers: 
+I don't remember.
+
+	George Penev asks:
+Where are they?
+	Maria Kicheva answers: 
+I don't remember.
+	George Penev asks:
+Where are they?
+	Maria Kicheva answers: 
+I don't remember.
+	George Penev asks:
+Did you kill him?
+	Maria Kicheva answers: 
+I don't remember.
+
+	George Penev asks:
+How much money did you steal?
+	Maria Kicheva answers: 
+I don't remember.
+	George Penev asks:
+Where are they?
+	Maria Kicheva answers: 
+I refuse to answer the question.
+	George Penev asks:
+Where are they?
+	Maria Kicheva answers: 
+I refuse to answer the question.
+
+	George Tashev asks:
+Where were you at the night of the crime?
+	Maria Kicheva answers: 
+No.
+	George Tashev asks:
+Do you recognize this this person?
+	Maria Kicheva answers: 
+I'll never tell you.
+	George Tashev asks:
+How much money did you steal?
+	Maria Kicheva answers: 
+No.
+
+------------------------
+ACCUSER'S LAWYERS ASK WITNESSES QUESTIONS
+	George Draganov asks:
+How much money did you steal?
+	Milena Minkova answers: 
+No.
+	George Draganov asks:
+Where were you at the night of the crime?
+	Milena Minkova answers: 
+I don't know.
+	George Draganov asks:
+Where were you at the night of the crime?
+	Milena Minkova answers: 
+I refuse to answer the question.
+	George Draganov asks:
+Where are they?
+	Milena Minkova answers: 
+I refuse to answer the question.
+	George Draganov asks:
+How much money did you steal?
+	Milena Peneva answers: 
+I don't remember.
+	George Draganov asks:
+Where is the murder weapon?
+	Milena Peneva answers: 
+No.
+
+	George Penev asks:
+Where are they?
+	Milena Minkova answers: 
+No.
+	George Penev asks:
+How much money did you steal?
+	Milena Minkova answers: 
+I don't remember.
+	George Penev asks:
+How much money did you steal?
+	Milena Minkova answers: 
+I refuse to answer the question.
+	George Penev asks:
+Where is the murder weapon?
+	Milena Minkova answers: 
+I'll never tell you.
+	George Penev asks:
+Where are they?
+	Milena Peneva answers: 
+You got the wrong person
+	George Penev asks:
+Where were you at the night of the crime?
+	Milena Peneva answers: 
+You got the wrong person
+
+	George Penev asks:
+Did you kill him?
+	Milena Minkova answers: 
+No.
+	George Penev asks:
+Where were you at the night of the crime?
+	Milena Minkova answers: 
+I'll never tell you.
+	George Penev asks:
+How much money did you steal?
+	Milena Minkova answers: 
+I refuse to answer the question.
+	George Penev asks:
+Did you kill him?
+	Milena Minkova answers: 
+You got the wrong person
+	George Penev asks:
+How much money did you steal?
+	Milena Peneva answers: 
+I don't remember.
+	George Penev asks:
+Where is the murder weapon?
+	Milena Peneva answers: 
+I refuse to answer the question.
+
+	George Tashev asks:
+Did you kill him?
+	Milena Minkova answers: 
+You got the wrong person
+	George Tashev asks:
+How much money did you steal?
+	Milena Minkova answers: 
+I refuse to answer the question.
+	George Tashev asks:
+Where is the murder weapon?
+	Milena Minkova answers: 
+I refuse to answer the question.
+	George Tashev asks:
+Where is the murder weapon?
+	Milena Minkova answers: 
+I don't know.
+	George Tashev asks:
+How much money did you steal?
+	Milena Peneva answers: 
+I refuse to answer the question.
+	George Tashev asks:
+Do you recognize this this person?
+	Milena Peneva answers: 
+I'll never tell you.
+
+------------------------
+DEFENDANT'S LAWYERS ASK  WITNESSES QUESTIONS
+	George Penev asks:
+Do you recognize this this person?
+	Milena Minkova answers:
+You got the wrong person
+	George Penev asks:
+Do you recognize this this person?
+	Milena Minkova answers:
+I refuse to answer the question.
+	George Penev asks:
+Where were you at the night of the crime?
+	Milena Peneva answers:
+No.
+
+	George Draganov asks:
+Where were you at the night of the crime?
+	Milena Minkova answers:
+I refuse to answer the question.
+	George Draganov asks:
+How much money did you steal?
+	Milena Minkova answers:
+I don't know.
+	George Draganov asks:
+Do you recognize this this person?
+	Milena Peneva answers:
+I'll never tell you.
+
+	George Penev asks:
+Do you recognize this this person?
+	Milena Minkova answers:
+I'll never tell you.
+	George Penev asks:
+How much money did you steal?
+	Milena Minkova answers:
+You got the wrong person
+	George Penev asks:
+How much money did you steal?
+	Milena Peneva answers:
+I don't remember.
+
+	George Tashev asks:
+Where is the murder weapon?
+	Milena Minkova answers:
+I don't know.
+	George Tashev asks:
+Where are they?
+	Milena Minkova answers:
+I don't know.
+	George Tashev asks:
+Do you recognize this this person?
+	Milena Peneva answers:
+You got the wrong person
+
+------------------------
+The judicial assessors finds the defendant guilty!
+The defendant is sentenced to 6 years in prison!
+END OF CASE
+
+CIVIL CASE:
+Judge: name: Ivan Georgiev; years in business: 8; number of cases: 11;  defendant: full name: Maria Taneva; address: Sliven; age: 32 witnesses: [full name: Milena Tankina; address: Ruse; age: 25, full name: Milena Peneva; address: Sliven; age: 25, full name: Milena Jeleva; address: Sliven; age: 25]
+ACCUSER'S LAWYERS ASK DEFENDANT QUESTIONS
+	George Draganov asks:
+Where were you at the night of the crime?
+	Maria Taneva answers: 
+You got the wrong person
+	George Draganov asks:
+How much money did you steal?
+	Maria Taneva answers: 
+I'll never tell you.
+	George Draganov asks:
+Do you recognize this this person?
+	Maria Taneva answers: 
+I don't remember.
+
+	George Penev asks:
+Did you kill him?
+	Maria Taneva answers: 
+You got the wrong person
+	George Penev asks:
+Did you kill him?
+	Maria Taneva answers: 
+I don't know.
+	George Penev asks:
+How much money did you steal?
+	Maria Taneva answers: 
+No.
+
+	George Penev asks:
+Did you kill him?
+	Maria Taneva answers: 
+No.
+	George Penev asks:
+Where is the murder weapon?
+	Maria Taneva answers: 
+I refuse to answer the question.
+	George Penev asks:
+Did you kill him?
+	Maria Taneva answers: 
+I'll never tell you.
+
+	George Tashev asks:
+Where were you at the night of the crime?
+	Maria Taneva answers: 
+I'll never tell you.
+	George Tashev asks:
+Where were you at the night of the crime?
+	Maria Taneva answers: 
+You got the wrong person
+	George Tashev asks:
+Where are they?
+	Maria Taneva answers: 
+I refuse to answer the question.
+
+------------------------
+ACCUSER'S LAWYERS ASK WITNESSES QUESTIONS
+	George Draganov asks:
+Where were you at the night of the crime?
+	Milena Tankina answers: 
+You got the wrong person
+	George Draganov asks:
+Where is the murder weapon?
+	Milena Tankina answers: 
+I'll never tell you.
+	George Draganov asks:
+How much money did you steal?
+	Milena Peneva answers: 
+I'll never tell you.
+	George Draganov asks:
+Where is the murder weapon?
+	Milena Peneva answers: 
+No.
+	George Draganov asks:
+Did you kill him?
+	Milena Jeleva answers: 
+I refuse to answer the question.
+	George Draganov asks:
+Where were you at the night of the crime?
+	Milena Jeleva answers: 
+I'll never tell you.
+
+	George Penev asks:
+How much money did you steal?
+	Milena Tankina answers: 
+No.
+	George Penev asks:
+Do you recognize this this person?
+	Milena Tankina answers: 
+No.
+	George Penev asks:
+Did you kill him?
+	Milena Peneva answers: 
+No.
+	George Penev asks:
+Where were you at the night of the crime?
+	Milena Peneva answers: 
+I'll never tell you.
+	George Penev asks:
+Did you kill him?
+	Milena Jeleva answers: 
+I don't know.
+	George Penev asks:
+Did you kill him?
+	Milena Jeleva answers: 
+I'll never tell you.
+
+	George Penev asks:
+Do you recognize this this person?
+	Milena Tankina answers: 
+I don't know.
+	George Penev asks:
+How much money did you steal?
+	Milena Tankina answers: 
+I don't remember.
+	George Penev asks:
+Do you recognize this this person?
+	Milena Peneva answers: 
+I don't remember.
+	George Penev asks:
+Where are they?
+	Milena Peneva answers: 
+No.
+	George Penev asks:
+How much money did you steal?
+	Milena Jeleva answers: 
+No.
+	George Penev asks:
+Where were you at the night of the crime?
+	Milena Jeleva answers: 
+I'll never tell you.
+
+	George Tashev asks:
+Where were you at the night of the crime?
+	Milena Tankina answers: 
+I'll never tell you.
+	George Tashev asks:
+Do you recognize this this person?
+	Milena Tankina answers: 
+I refuse to answer the question.
+	George Tashev asks:
+Where is the murder weapon?
+	Milena Peneva answers: 
+I don't remember.
+	George Tashev asks:
+How much money did you steal?
+	Milena Peneva answers: 
+I'll never tell you.
+	George Tashev asks:
+Where are they?
+	Milena Jeleva answers: 
+No.
+	George Tashev asks:
+Where is the murder weapon?
+	Milena Jeleva answers: 
+You got the wrong person
+
+------------------------
+DEFENDANT'S LAWYERS ASK  WITNESSES QUESTIONS
+	George Penev asks:
+Where are they?
+	Milena Tankina answers:
+I don't remember.
+	George Penev asks:
+Do you recognize this this person?
+	Milena Peneva answers:
+I refuse to answer the question.
+	George Penev asks:
+Do you recognize this this person?
+	Milena Jeleva answers:
+I don't know.
+
+	George Draganov asks:
+Where were you at the night of the crime?
+	Milena Tankina answers:
+You got the wrong person
+	George Draganov asks:
+How much money did you steal?
+	Milena Peneva answers:
+No.
+	George Draganov asks:
+How much money did you steal?
+	Milena Jeleva answers:
+I don't know.
+
+------------------------
+The judicial assessors finds the defendant not guilty!
+END OF CASE
+
+CRIMINAL CASE:
+Judge: name: Ivan Simeonov; years in business: 9; number of cases: 19;  defendant: full name: Maria Kicheva; address: Sofia; age: 42 witnesses: [full name: Milena Dineva; address: Plovdiv; age: 25, full name: Milena Simeonova; address: Sofia; age: 25, full name: Milena Georgieva; address: Ruse; age: 25]
+PROSECUTOR ASK DEFENDANT QUESTIONS
+	Mario Penev asks:
+Where were you at the night of the crime?
+	Maria Kicheva answers: 
+I don't know.
+	Mario Penev asks:
+Where are they?
+	Maria Kicheva answers: 
+No.
+	Mario Penev asks:
+Do you recognize this this person?
+	Maria Kicheva answers: 
+No.
+	Mario Penev asks:
+Do you recognize this this person?
+	Maria Kicheva answers: 
+I don't remember.
+	Mario Penev asks:
+Do you recognize this this person?
+	Maria Kicheva answers: 
+I don't remember.
+------------------------
+PROSECUTOR ASK WITNESSES QUESTIONS
+	Mario Penev asks:
+Did you kill him?
+	Milena Dineva answers: 
+I don't know.
+	Mario Penev asks:
+Where is the murder weapon?
+	Milena Dineva answers: 
+You got the wrong person
+	Mario Penev asks:
+Did you kill him?
+	Milena Dineva answers: 
+I don't know.
+	Mario Penev asks:
+Do you recognize this this person?
+	Milena Dineva answers: 
+No.
+	Mario Penev asks:
+How much money did you steal?
+	Milena Dineva answers: 
+No.
+	Mario Penev asks:
+Where is the murder weapon?
+	Milena Simeonova answers: 
+I refuse to answer the question.
+	Mario Penev asks:
+How much money did you steal?
+	Milena Simeonova answers: 
+I don't know.
+	Mario Penev asks:
+Where is the murder weapon?
+	Milena Simeonova answers: 
+You got the wrong person
+	Mario Penev asks:
+Where are they?
+	Milena Simeonova answers: 
+You got the wrong person
+	Mario Penev asks:
+Where is the murder weapon?
+	Milena Simeonova answers: 
+I don't know.
+	Mario Penev asks:
+Where are they?
+	Milena Georgieva answers: 
+No.
+	Mario Penev asks:
+How much money did you steal?
+	Milena Georgieva answers: 
+I don't remember.
+	Mario Penev asks:
+Did you kill him?
+	Milena Georgieva answers: 
+I'll never tell you.
+	Mario Penev asks:
+Where were you at the night of the crime?
+	Milena Georgieva answers: 
+No.
+	Mario Penev asks:
+How much money did you steal?
+	Milena Georgieva answers: 
+I refuse to answer the question.
+------------------------
+DEFENDANT'S LAWYERS ASK  WITNESSES QUESTIONS
+	George Penev asks:
+How much money did you steal?
+	Milena Dineva answers:
+You got the wrong person
+	George Penev asks:
+Where are they?
+	Milena Simeonova answers:
+I'll never tell you.
+	George Penev asks:
+Where were you at the night of the crime?
+	Milena Georgieva answers:
+I don't know.
+
+	George Draganov asks:
+Where are they?
+	Milena Dineva answers:
+I don't know.
+	George Draganov asks:
+Where are they?
+	Milena Simeonova answers:
+I don't remember.
+	George Draganov asks:
+Did you kill him?
+	Milena Georgieva answers:
+I'll never tell you.
+
+	George Penev asks:
+Do you recognize this this person?
+	Milena Dineva answers:
+You got the wrong person
+	George Penev asks:
+How much money did you steal?
+	Milena Simeonova answers:
+I refuse to answer the question.
+	George Penev asks:
+Do you recognize this this person?
+	Milena Georgieva answers:
+I refuse to answer the question.
+
+	George Tashev asks:
+Where is the murder weapon?
+	Milena Dineva answers:
+No.
+	George Tashev asks:
+Do you recognize this this person?
+	Milena Simeonova answers:
+You got the wrong person
+	George Tashev asks:
+Where is the murder weapon?
+	Milena Georgieva answers:
+I'll never tell you.
+
+------------------------
+The judicial assessors finds the defendant guilty!
+The defendant is sentenced to 9 years in prison!
+END OF CASE
+
+CRIMINAL CASE:
+Judge: name: Ivan Simeonov; years in business: 9; number of cases: 19;  defendant: full name: Maria Pesheva; address: Sliven; age: 22 witnesses: [full name: Milena Jeleva; address: Sliven; age: 25, full name: Milena Jeleva; address: Sliven; age: 25, full name: Milena Peneva; address: Sliven; age: 25]
+PROSECUTOR ASK DEFENDANT QUESTIONS
+	Mario Penev asks:
+Did you kill him?
+	Maria Pesheva answers: 
+I'll never tell you.
+	Mario Penev asks:
+How much money did you steal?
+	Maria Pesheva answers: 
+I don't remember.
+	Mario Penev asks:
+Where were you at the night of the crime?
+	Maria Pesheva answers: 
+No.
+	Mario Penev asks:
+Where are they?
+	Maria Pesheva answers: 
+I'll never tell you.
+	Mario Penev asks:
+Where were you at the night of the crime?
+	Maria Pesheva answers: 
+I don't know.
+------------------------
+PROSECUTOR ASK WITNESSES QUESTIONS
+	Mario Penev asks:
+Did you kill him?
+	Milena Jeleva answers: 
+I don't know.
+	Mario Penev asks:
+Where are they?
+	Milena Jeleva answers: 
+I refuse to answer the question.
+	Mario Penev asks:
+Where are they?
+	Milena Jeleva answers: 
+I'll never tell you.
+	Mario Penev asks:
+Do you recognize this this person?
+	Milena Jeleva answers: 
+I don't remember.
+	Mario Penev asks:
+Where were you at the night of the crime?
+	Milena Jeleva answers: 
+No.
+	Mario Penev asks:
+Do you recognize this this person?
+	Milena Jeleva answers: 
+You got the wrong person
+	Mario Penev asks:
+Where is the murder weapon?
+	Milena Jeleva answers: 
+I refuse to answer the question.
+	Mario Penev asks:
+Where is the murder weapon?
+	Milena Jeleva answers: 
+I refuse to answer the question.
+	Mario Penev asks:
+Did you kill him?
+	Milena Jeleva answers: 
+I refuse to answer the question.
+	Mario Penev asks:
+Did you kill him?
+	Milena Jeleva answers: 
+You got the wrong person
+	Mario Penev asks:
+Where are they?
+	Milena Peneva answers: 
+You got the wrong person
+	Mario Penev asks:
+Do you recognize this this person?
+	Milena Peneva answers: 
+I'll never tell you.
+	Mario Penev asks:
+Where is the murder weapon?
+	Milena Peneva answers: 
+I don't remember.
+	Mario Penev asks:
+Where is the murder weapon?
+	Milena Peneva answers: 
+I'll never tell you.
+	Mario Penev asks:
+Where are they?
+	Milena Peneva answers: 
+You got the wrong person
+------------------------
+DEFENDANT'S LAWYERS ASK  WITNESSES QUESTIONS
+	George Nasov asks:
+Where were you at the night of the crime?
+	Milena Jeleva answers:
+I'll never tell you.
+	George Nasov asks:
+Where are they?
+	Milena Jeleva answers:
+I refuse to answer the question.
+	George Nasov asks:
+Do you recognize this this person?
+	Milena Peneva answers:
+I don't remember.
+
+	George Draganov asks:
+Where are they?
+	Milena Jeleva answers:
+No.
+	George Draganov asks:
+Where were you at the night of the crime?
+	Milena Jeleva answers:
+I refuse to answer the question.
+	George Draganov asks:
+Did you kill him?
+	Milena Peneva answers:
+You got the wrong person
+
+------------------------
+The judicial assessors finds the defendant not guilty!
+END OF CASE
+
+CRIMINAL CASE:
+Judge: name: Ivan Ivanov; years in business: 6; number of cases: 14;  defendant: full name: Maria Todorova; address: Varna; age: 42 witnesses: [full name: Milena Simeonova; address: Sofia; age: 25, full name: Milena Taneva; address: Sofia; age: 25, full name: Milena Dineva; address: Plovdiv; age: 25]
+PROSECUTOR ASK DEFENDANT QUESTIONS
+	Mario Tanev asks:
+Do you recognize this this person?
+	Maria Todorova answers: 
+You got the wrong person
+	Mario Tanev asks:
+Where is the murder weapon?
+	Maria Todorova answers: 
+You got the wrong person
+	Mario Tanev asks:
+Where is the murder weapon?
+	Maria Todorova answers: 
+I'll never tell you.
+	Mario Tanev asks:
+How much money did you steal?
+	Maria Todorova answers: 
+I'll never tell you.
+	Mario Tanev asks:
+How much money did you steal?
+	Maria Todorova answers: 
+I'll never tell you.
+------------------------
+PROSECUTOR ASK WITNESSES QUESTIONS
+	Mario Tanev asks:
+Where are they?
+	Milena Simeonova answers: 
+You got the wrong person
+	Mario Tanev asks:
+How much money did you steal?
+	Milena Simeonova answers: 
+I refuse to answer the question.
+	Mario Tanev asks:
+Where were you at the night of the crime?
+	Milena Simeonova answers: 
+I don't know.
+	Mario Tanev asks:
+How much money did you steal?
+	Milena Simeonova answers: 
+I'll never tell you.
+	Mario Tanev asks:
+Do you recognize this this person?
+	Milena Simeonova answers: 
+I don't know.
+	Mario Tanev asks:
+Where are they?
+	Milena Taneva answers: 
+I don't know.
+	Mario Tanev asks:
+Where is the murder weapon?
+	Milena Taneva answers: 
+I refuse to answer the question.
+	Mario Tanev asks:
+How much money did you steal?
+	Milena Taneva answers: 
+You got the wrong person
+	Mario Tanev asks:
+Did you kill him?
+	Milena Taneva answers: 
+I don't remember.
+	Mario Tanev asks:
+Did you kill him?
+	Milena Taneva answers: 
+I don't know.
+	Mario Tanev asks:
+Where were you at the night of the crime?
+	Milena Dineva answers: 
+No.
+	Mario Tanev asks:
+How much money did you steal?
+	Milena Dineva answers: 
+I'll never tell you.
+	Mario Tanev asks:
+How much money did you steal?
+	Milena Dineva answers: 
+I don't remember.
+	Mario Tanev asks:
+Did you kill him?
+	Milena Dineva answers: 
+I'll never tell you.
+	Mario Tanev asks:
+Did you kill him?
+	Milena Dineva answers: 
+I don't know.
+------------------------
+DEFENDANT'S LAWYERS ASK  WITNESSES QUESTIONS
+	George Tashev asks:
+Where are they?
+	Milena Simeonova answers:
+I don't know.
+	George Tashev asks:
+Where is the murder weapon?
+	Milena Taneva answers:
+I refuse to answer the question.
+	George Tashev asks:
+How much money did you steal?
+	Milena Dineva answers:
+You got the wrong person
+
+	George Tashev asks:
+Where were you at the night of the crime?
+	Milena Simeonova answers:
+No.
+	George Tashev asks:
+Did you kill him?
+	Milena Taneva answers:
+I don't know.
+	George Tashev asks:
+Do you recognize this this person?
+	Milena Dineva answers:
+No.
+
+	George Vankov asks:
+Where are they?
+	Milena Simeonova answers:
+I don't know.
+	George Vankov asks:
+How much money did you steal?
+	Milena Taneva answers:
+I'll never tell you.
+	George Vankov asks:
+Where are they?
+	Milena Dineva answers:
+I don't know.
+
+	George Nasov asks:
+Where are they?
+	Milena Simeonova answers:
+I don't know.
+	George Nasov asks:
+Where were you at the night of the crime?
+	Milena Taneva answers:
+I don't remember.
+	George Nasov asks:
+How much money did you steal?
+	Milena Dineva answers:
+I don't remember.
+
+------------------------
+The judicial assessors finds the defendant guilty!
+The defendant is sentenced to 9 years in prison!
+END OF CASE
+
