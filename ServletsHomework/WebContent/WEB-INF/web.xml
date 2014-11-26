@@ -79,4 +79,34 @@
     <servlet-name>FullStudentInfo</servlet-name>
     <url-pattern>/FullStudentInfo</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ReamImgServlet</display-name>
+    <servlet-name>ReamImgServlet</servlet-name>
+    <servlet-class>homework.ReamImgServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReamImgServlet</servlet-name>
+    <url-pattern>/ReamImgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Temp</display-name>
+    <servlet-name>Temp</servlet-name>
+    <servlet-class>homework.Temp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Temp</servlet-name>
+    <url-pattern>/Temp</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ImageReader</display-name>
+    <servlet-name>ImageReader</servlet-name>
+    <servlet-class>homework.ImageReader</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ImageReader</servlet-name>
+    <url-pattern>/ImageReader</url-pattern>
+  </servlet-mapping>
 </web-app>
