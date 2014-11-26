@@ -39,4 +39,44 @@
     <servlet-name>UnitConverter</servlet-name>
     <url-pattern>/UnitConverter</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>NameAndAge</display-name>
+    <servlet-name>NameAndAge</servlet-name>
+    <servlet-class>homework.NameAndAge</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NameAndAge</servlet-name>
+    <url-pattern>/NameAndAge</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Address</display-name>
+    <servlet-name>Address</servlet-name>
+    <servlet-class>homework.Address</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Address</servlet-name>
+    <url-pattern>/Address</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>University</display-name>
+    <servlet-name>University</servlet-name>
+    <servlet-class>homework.University</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>University</servlet-name>
+    <url-pattern>/University</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FullStudentInfo</display-name>
+    <servlet-name>FullStudentInfo</servlet-name>
+    <servlet-class>homework.FullStudentInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FullStudentInfo</servlet-name>
+    <url-pattern>/FullStudentInfo</url-pattern>
+  </servlet-mapping>
 </web-app>
