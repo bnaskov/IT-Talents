@@ -1,0 +1,192 @@
+html, body, header, footer, section, article, div, nav, aside, ul, li, img, h1, h2, h3, h5, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+#container{
+	background-color: #101415;
+	font-size: 13px;
+}
+
+header, main, footer{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header{
+	position: relative;
+}
+	header h1{
+		position: absolute;
+		top: 65%;
+		left: 55%;
+		color: #fff;
+	}
+
+	header img {
+    max-width: 100%;
+	}
+
+	.image{
+		max-height:265px;
+	}
+
+	nav{
+		position: relative;
+		max-width: 900px;
+    	margin: 0 auto;
+		background: rgb(239, 239, 239);
+	background: -moz-linear-gradient(91deg, rgb(239, 239, 239) 50%, rgb(218, 218, 218) 100%);
+	background: -webkit-linear-gradient(91deg, rgb(239, 239, 239) 50%, rgb(218, 218, 218) 100%);
+	background: -o-linear-gradient(91deg, rgb(239, 239, 239) 50%, rgb(218, 218, 218) 100%);
+	background: -ms-linear-gradient(91deg, rgb(239, 239, 239) 50%, rgb(218, 218, 218) 100%);
+	background: linear-gradient(181deg, rgb(239, 239, 239) 50%, rgb(218, 218, 218) 100%);
+	    border-bottom: 1px solid #fff;
+	    -moz-box-shadow: 0 1px #DBDBDB;
+	    -webkit-box-shadow: 0 1px #DBDBDB;
+	    box-shadow: 0 1px #DBDBDB;
+	}
+
+		nav ul li{
+			list-style: none;
+			display: inline-block;
+			margin-right: -5px;
+			background: rgb(239, 239, 239);
+		background: -moz-linear-gradient(91deg, rgb(239, 239, 239) 50%, rgb(218, 218, 218) 100%);
+		background: -webkit-linear-gradient(91deg, rgb(239, 239, 239) 50%, rgb(218, 218, 218) 100%);
+		background: -o-linear-gradient(91deg, rgb(239, 239, 239) 50%, rgb(218, 218, 218) 100%);
+		background: -ms-linear-gradient(91deg, rgb(239, 239, 239) 50%, rgb(218, 218, 218) 100%);
+		background: linear-gradient(181deg, rgb(239, 239, 239) 50%, rgb(218, 218, 218) 100%);
+		    border: 1px solid #fff;
+		    border-top: none;
+		    border-bottom: none;
+		}
+
+			nav ul li a{
+				display: block;		
+				padding: 8px 15px;
+				text-decoration: none;
+				color: #605F5F;
+				text-transform: uppercase;
+
+			}
+
+			nav ul li a:hover{
+				background: #B9B9B9;
+				color: #fff;
+			}
+
+aside{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15px;
+}
+
+	aside div:nth-child(1){
+		background-color: #EEEEEE;
+		margin-bottom: 15px;
+	}
+
+	aside>div{
+		border: 1px solid #DBDBDB;
+		border-radius: 6px;
+		padding: 13px 16px;
+		width:160px;
+	}
+
+	aside div .date{
+		font-weight: bold;
+	}
+
+	aside div p span{
+		font-weight: bold;
+	}
+
+	aside div a{
+		display: block;
+		color: #84BE19;
+		font-weight: bold;
+	}
+
+	aside div div:nth-child(2), aside div div:nth-child(3){
+		margin-bottom: 15px;
+	}
+
+	aside div:nth-child(2) a{
+		display: block;
+		margin-top: 15px;
+	}
+
+main{
+	background-color: #fff;
+	padding: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+	main section{
+		border: 1px solid #DBDBDB;	
+		border-radius: 6px;
+		padding: 13px 16px;
+		margin-bottom: 15px;
+	}
+	
+		h2{
+			text-transform: uppercase;
+			color: #84BE19;
+			margin-bottom: 18px;
+			font-size: 22px;
+		}
+
+		section p span{
+			font-weight: bold;
+		}
+		section h3{
+			color: #84BE19;
+			margin-bottom: 15px;
+			font-size: 22px;
+		}
+
+		section article{
+			height: 150px;
+			font-size: 14px;
+		}
+
+			.articles{
+			display: inline-block;
+			width: 645px;
+			}
+
+			section article h5{
+				margin-bottom: 15px;
+			}
+
+			section article img{
+				margin-right: 15px;
+				float: left;
+			}
+
+footer{
+	position: relative;
+	width:100%;
+	height: 90px;
+	background: rgb(167, 217, 66);
+	background: -moz-linear-gradient(90deg, rgb(167, 217, 66) 50%, rgb(132, 191, 25) 81%);
+	background: -webkit-linear-gradient(90deg, rgb(167, 217, 66) 50%, rgb(132, 191, 25) 81%);
+	background: -o-linear-gradient(90deg, rgb(167, 217, 66) 50%, rgb(132, 191, 25) 81%);
+	background: -ms-linear-gradient(90deg, rgb(167, 217, 66) 50%, rgb(132, 191, 25) 81%);
+	background: linear-gradient(180deg, rgb(167, 217, 66) 50%, rgb(132, 191, 25) 81%);
+	display: block;
+	border-top: 1px solid #fff;
+    -moz-box-shadow: 0 -1px #A6D74A;
+    -webkit-box-shadow: 0 -1px #A6D74A;
+    box-shadow: 0 -1px #A6D74A;
+}
+	footer p{
+		position: absolute;
+		top: 30%;
+		left: 20%;
+	}
+
