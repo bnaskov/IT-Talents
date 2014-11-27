@@ -33,7 +33,7 @@
 			session.setAttribute("ITEMS", new LinkedList<String>());			
 		}
 		LinkedList<String> items = (LinkedList<String>) session.getAttribute("ITEMS");
-		items.add(request.getParameter("addItem"));
+		items.add(htmlEscape(request.getParameter("addItem")));
 		for(String item : items){
 	%>
 			<h4><%= item %></h4>
@@ -47,8 +47,8 @@
 			session.setAttribute("ITEMS", new LinkedList<String>());			
 		}
 		LinkedList<String> items = (LinkedList<String>) session.getAttribute("ITEMS");
-		if(items.contains(request.getParameter("removeItem"))){
-			items.remove(request.getParameter("removeItem"));
+		if(items.contains(htmlEscape(request.getParameter("removeItem")))){
+			items.remove(htmlEscape(request.getParameter("removeItem")));
 		} else {
 	%>
 			<h4><%= "No such element exist" %></h4>
@@ -59,6 +59,30 @@
 			<h4><%= item %></h4>
 			<%
 		}
+	}
+	%>
+	
+	<%!
+	public static String htmlEscape(String text) {
+		StringBuilder escapedText = new StringBuilder();
+		
+	  	for (int i=0; i<text.length(); i++) {
+		    char ch = text.charAt(i);
+		    if (ch == '<') {
+		        escapedText.append("&lt;");
+		    } else if (ch == '>') {
+		        escapedText.append("&gt;");
+		    }  else if (ch == '&') {
+		        escapedText.append("&amp;");
+	  		}  else if (ch == '\"') {
+		        escapedText.append("&quot;");
+			}  else {
+		        escapedText.append(ch);
+			}
+	    }
+	    String result = escapedText.toString();
+	    
+	    return result;
 	}
 	%>
 </body>
