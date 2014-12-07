@@ -10,6 +10,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<h1>Hello</h1>
 
 <p><a href="${pageContext.request.contextPath}/offers">Show current offers.</a></p>
 <p><a href="${pageContext.request.contextPath}/createoffer">Add a new offer.</a></p>
